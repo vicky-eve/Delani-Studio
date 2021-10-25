@@ -4,4 +4,18 @@ image{
 }
 html{
     font-size: 100%;
+    font-weight: bolder;
 }
+
+  .design-details{
+      display: none;
+    cursor: pointer;
+    color: #0088cc;
+  }
+
+  .design-details:hover {
+    text-decoration: underline;
+  }
+  .container{
+      padding-inline-end: 0pt;
+  }
