@@ -14,4 +14,8 @@ Planning and development is iterative. Because we are constantly coding and test
 This iterative process allows for changes as business requirements evolve.
 
 **Live Link**
+<<<<<<< HEAD
 https://vicky-eve.github.io/Delani-Studio/
+=======
+https://vicky-eve.github.io/Delani-Studio/
+>>>>>>> 9a92c553ba1de2afa740dc87de18ad2891dd1b10
