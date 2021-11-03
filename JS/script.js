@@ -1,13 +1,31 @@
-
+console.log("welcome")
 $(document).ready(function() {
-    $(".clickable").click(function() {
-      $("#design-showing").show();
-      $("#design-details").toggle();
-    });
+  $(".design-showing").click(function() {
+      $(".design-showing").slideDown().hide();
+      $(".design-details").show();
   });
-
-  $(".").hover(function(){
-    $(project).css("background-color", "white");
-    }, function(){
-    $(project).css("background-color", "white");
+  $(".design-details").click(function() {
+      $(".design-details").slideUp();
+      $(".design-showing").slideDown();
   });
+});
+$(document).ready(function() {
+  $(".devpt-showing").click(function() {
+      $(".devpt-showing").slideDown().hide();
+      $(".devpt-details").show();
+  });
+  $(".devpt-details").click(function() {
+      $(".devpt-details").slideUp();
+      $(".devpt-showing").slideDown();
+  });
+});
+$(document).ready(function() {
+  $(".product-showing").click(function() {
+      $(".product-showing").slideDown().hide();
+      $(".product-details").show();
+  });
+  $(".product-details").click(function() {
+      $(".product-details").slideUp();
+      $(".product-showing").slideDown();
+  });
+});
